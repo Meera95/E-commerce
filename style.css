@@ -1,0 +1,37 @@
+/* 
+Theme name : Hem to Hand
+Author : Meera
+Description : custom theme created for e-commerce website
+textdomain : Hem to hand
+*/
+
+
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgb(10, 7, 241);
+    font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.8;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+  }
+
+  a {
+    transition: color 110ms ease-in-out;
+    color: #080808;
+ 
+  }
+  
+  a:visited {
+    color: #0073aa;
+  }
+  
+  a:hover, a:active {
+    color: #005177;
+    outline: 0;
+    text-decoration: none;
+  }
